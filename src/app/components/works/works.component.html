@@ -1,0 +1,14 @@
+<div class="work-container row">
+    
+    <div class="d-flex flex-wrap">
+        <div class="col-3">
+            <img [src]=workData.urlImage class="img-work img-fluid rounded" width="250" alt="">
+        </div>
+        
+        <div class="text-work d-flex- flex column justify-content-center col-8">
+            <h5>{{workData.title}}</h5>
+            <p class="work-description">{{workData.description}}</p>
+            <a [href]="workData.urlProyecto" target="_blank">Ir al sitio...</a>
+        </div>
+    </div>
+</div>

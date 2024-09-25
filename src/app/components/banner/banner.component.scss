@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=The+Girl+Next+Door&display=swap');
+.banner-container {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 50px;
+    position: relative;
+}
+
+.title2 {
+    color: azure;
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px #000;
+    font-family: "The Girl Next Door", cursive;
+
+}
+
+@media (max-width: 850px) {
+    .banner-container {
+      margin: 0 10px;
+    }
+  
+    .title2 {
+      font-size: 2rem;
+      text-shadow: 2px 2px 4px #000;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .banner-container {
+      margin: 0 20px;
+    }
+  
+    .title2 {
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px #000;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .banner-container {
+      margin: 0 30px;
+    }
+  
+    .title2 {
+      font-size: 3rem;
+      text-shadow: 3px 3px 5px #000;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .banner-container {
+      margin: 0 50px;
+    }
+  
+    .title2 {
+      font-size: 4rem;
+      text-shadow: 3px 3px 5px #000;
+    }
+  }

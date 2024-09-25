@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portafolio';
+  imgUrl: string = '../../../assets/img/fondo.png';
+  fondo: string = `url('${this.imgUrl}')`;
 }

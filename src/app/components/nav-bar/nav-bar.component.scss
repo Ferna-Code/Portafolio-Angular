@@ -1,0 +1,21 @@
+.navbar-container{
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+
+.navbar-right{
+    .social{
+        a:hover{
+            transform: scale(1.2);//cambia el tamaño de la imagen al pasar el raton sobre el icono
+        }
+        a.social-linkedin{
+            color: #007bb6;
+        }
+        a.social-whatsapp{
+            color: #075e54;
+        }
+        a.social-github{
+            color: #444;
+        }
+    }
+}

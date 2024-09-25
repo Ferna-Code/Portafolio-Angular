@@ -1,0 +1,3 @@
+<h3 class="section-title">{{title}}</h3>
+<!--Le pasamos el contenido de la lista workList que esta en el componente al componente hijo-->
+<app-works *ngFor="let i of workList" [workData]="i"></app-works>
